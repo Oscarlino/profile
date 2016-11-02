@@ -42,7 +42,7 @@ table{
   line-height: 1.6em;
 }
 
-.cvcv{  width: 500px;
+.container{  width: 500px;
   margin: 0 auto;
 }
 
@@ -79,6 +79,7 @@ table{
 }
 
 #sidebar {
+    font-size: 50px;
     background-color: #384047;
     position: fixed;
     left: 0px;
@@ -90,4 +91,26 @@ table{
 
 #page-content {
   margin-left: 300px;
+}
+
+#sidebar li {
+  margin-bottom:  20px;
+
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+
+
+}
+
+.sidebar-list {
+  list-style: none;
+  padding-left: 0;
+
 }
